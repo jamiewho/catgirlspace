@@ -1,2 +1,2 @@
-# catgirlspace
-website of catgirl.space
+# site
+stupid site for myself 
