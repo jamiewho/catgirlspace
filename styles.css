@@ -7,7 +7,7 @@
 
 html, body {
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 }
 
 body {
@@ -66,4 +66,19 @@ h1 {
 	to {
 		background-position: 200%;
 	}
+}
+
+input[type=text], input[type=password] {
+	background: transparent;
+	border: none;
+	color: white;
+}
+
+.register {
+	display:block;
+  position:relative;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(136, 136, 136);
+  text-decoration: none;
 }
