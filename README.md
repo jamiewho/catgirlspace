@@ -1,2 +1,2 @@
-# site
-stupid site for myself 
+# nyabot
+nyabot commands
