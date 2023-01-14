@@ -3,7 +3,7 @@ const particles_per_second = 40;
 const particle_lifetime = 1000;
 const particle_speed = .1;
 const particle_jitter = 0;
-const particle_size = 2;
+const particle_size = 5;
 
 let canvas = document.getElementById("canvas-background");
 let ctx = canvas.getContext("2d");
@@ -76,6 +76,7 @@ function draw() {
 		p.draw(ctx);
 	}
 }
+
 
 function add_particle() {
 	particles.push(new particle(Math.random() * canvas.width, Math.random() * canvas.height));
